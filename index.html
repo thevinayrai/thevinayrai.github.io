@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vinay Kumar Rai | Developer Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+background:#020617;
+padding:20px 10%;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(120deg,#0f172a,#1e293b);
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.btn{
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+border-radius:6px;
+text-decoration:none;
+margin:10px;
+font-weight:600;
+}
+
+.btn.secondary{
+background:#1e293b;
+color:#38bdf8;
+border:2px solid #38bdf8;
+}
+
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.skill{
+background:#1e293b;
+padding:15px;
+border-radius:8px;
+}
+
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:30px;
+}
+
+.project-card{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+}
+
+.project-card a{
+color:#38bdf8;
+display:inline-block;
+margin-top:10px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<h2>Vinay Rai</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#profiles">Profiles</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>Hi, I'm <span>Vinay Kumar Rai</span></h1>
+
+<h2>I am a <span id="typing"></span></h2>
+
+<a href="#projects" class="btn">View Projects</a>
+<a href="resume.pdf" class="btn secondary" target="_blank">Download Resume</a>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+Highly motivated and versatile Software Developer with a strong foundation in data
+structures, algorithms, and full-stack development, complemented by system design
+skills. Experienced across leading competitive programming and coding platforms,
+demonstrating strong analytical and problem-solving abilities. Committed to building
+scalable, maintainable software solutions and contributing to innovative projects
+that drive organizational success.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill"><b>Languages</b><br>C++, Python, Java, JavaScript, SQL</div>
+
+<div class="skill"><b>Core Concepts</b><br>Data Structures & Algorithms, OOP</div>
+
+<div class="skill"><b>Web Technologies</b><br>HTML, CSS</div>
+
+<div class="skill"><b>Frameworks</b><br>Spring, Spring Boot, Hibernate, FastAPI, React.js</div>
+
+<div class="skill"><b>Databases</b><br>MySQL, MongoDB</div>
+
+<div class="skill"><b>Tools & APIs</b><br>Git, REST APIs, Maven, Microservices</div>
+
+<div class="skill"><b>Cloud & DevOps</b><br>Docker, JUnit5, AWS, GitHub</div>
+
+</div>
+
+</section>
+
+<section id="experience">
+
+<h2>Work Experience</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>CSD Intern | Cognizant Technology Sol.</h3>
+<p>Oct 2022 - March 2023</p>
+
+<p>• Trained in Java Full Stack Development with hands-on exposure to backend frameworks, microservices architecture, and AWS testing.</p>
+<p>• Achieved 90%+ scores in weekly and monthly technical assessments.</p>
+<p>• Built an E-commerce Management System as a capstone project using Spring Boot and Hibernate.</p>
+</div>
+
+<div class="project-card">
+<h3>Software Engineer Trainee | Cognizant Technology Sol.</h3>
+<p>May 2023 – December 2023 | Noida, Uttar Pradesh, India</p>
+
+<p>• Provided L1/L2 technical support and participated in daily system monitoring and troubleshooting tasks.</p>
+<p>• Assisted in maintaining backend systems using Java and Spring Boot. Collaborated with cross-functional teams to deliver high-quality software module.</p>
+<p>• Developed internal tools and scripts to automate repetitive operations tasks.</p>
+</div>
+
+<div class="project-card">
+<h3>Freelance Software Engineer</h3>
+<p>Oct 2024 - Present</p>
+
+<p>• Collaborated with cross-functional teams to design and deliver backend services and RESTful APIs for web applications.</p>
+<p>• Applied best practices in API design, data handling, and code optimization to enhance application scalability and responsiveness by 15–20%.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>Pneumonia Detection from Chest X-rays | DenseNet-121, PyTorch</h3>
+
+<p>Developed a deep learning model to classify pediatric chest X-ray images as Pneumonia or Normal using transfer learning.</p>
+
+<p>• Trained the model using Negative Log Likelihood Loss and Adam Optimizer with a learning rate of 0.1.</p>
+
+<p>• Achieved 96.5% training accuracy and up to 93.75% validation accuracy.</p>
+
+<a href="https://www.kaggle.com/code/thevinayrai/pneumo-detect" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
+<h3>E-Commerce Management System | Java, Spring Boot, Hibernate</h3>
+
+<p>• Built a Spring Boot–based e-commerce system with RESTful APIs using Java, Hibernate (JPA), and MySQL.</p>
+
+<p>• Implemented role-based access and core features including product management, orders, payments, and complaints.</p>
+
+<p>• Integrated Spring Security for authentication and authorization, ensuring secure access to protected endpoints.</p>
+
+<a href="https://github.com/thevinayrai" target="_blank">View Code</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="profiles">
+
+<h2>Competitive Programming Profiles</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>GitHub</h3>
+<a href="https://github.com/thevinayrai" target="_blank">Visit Profile</a>
+</div>
+
+<div class="project-card">
+<h3>LinkedIn</h3>
+<a href="https://www.linkedin.com/in/thevinayrai/" target="_blank">Visit Profile</a>
+</div>
+
+<div class="project-card">
+<h3>LeetCode</h3>
+<a href="https://leetcode.com/u/btwo/" target="_blank">Visit Profile</a>
+</div>
+
+<div class="project-card">
+<h3>Codeforces (Expert)</h3>
+<a href="https://codeforces.com/profile/btwo" target="_blank">Visit Profile</a>
+</div>
+
+<div class="project-card">
+<h3>HackerRank</h3>
+<a href="https://www.hackerrank.com/profile/vinaykrai" target="_blank">Visit Profile</a>
+</div>
+
+</div>
+
+</section>
+
+<section id="certifications">
+
+<h2>Certifications</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<h3>Google IT Support Professional Certificate</h3>
+
+<p>
+Learned IT support tasks including networking, troubleshooting, Linux,
+DNS systems, and command-line tools.
+</p>
+
+<a href="https://coursera.org/verify/professional-cert/TUZK7BA2QWNF" target="_blank">
+View Certificate
+</a>
+
+</div>
+
+<div class="project-card">
+
+<h3>Google IT Automation with Python Professional Certificate</h3>
+
+<p>
+Automated tasks using Python scripts and managed cloud resources
+with Git and GitHub.
+</p>
+
+<a href="https://coursera.org/verify/professional-cert/UB8E3H29T9V8" target="_blank">
+View Certificate
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p>Email: vinayrai4444@gmail.com</p>
+
+<p>
+GitHub: <a href="https://github.com/thevinayrai" target="_blank">https://github.com/thevinayrai</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Vinay Kumar Rai</p>
+
+</footer>
+
+<script>
+
+var typed = new Typed("#typing", {
+
+strings:[
+"Software Developer",
+"Full Stack Developer",
+"Java Backend Developer",
+"Problem Solver"
+],
+
+typeSpeed:60,
+backSpeed:40,
+loop:true
+
+});
+
+</script>
+
+</body>
+</html>
